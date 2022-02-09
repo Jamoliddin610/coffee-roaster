@@ -1,12 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;1,500;1,600&family=Fraunces:wght@400;500;600;700;800;900&display=swap');
 *,
 *::after,
 *::before{
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'Barlow',sans-serif;
+    font-weight: 400;
+}
 ul{
     list-style-type: none;
 }
 a{
     text-decoration: none;
+}
+.container{
+    width: 1300px;
+    padding: 0 10px;
+}
+/* jamolidddin started header */
+
+.site-head{
+    width: 100%;
+    padding: 40px 0;
+}
+.head__btn-box{
+    display: none;
+}
+.site-head .row{
+    margin: 0;
+}
+.head__link{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888f;
+    margin-left: 32px;
+    transition: 0.5s;
+}
+.head__link:hover{
+    color: #333d4b;
+}
+@media screen  and ( max-width:992px) {
+    .hero .container{
+        width: 100%;
+        padding: 0 25px;
+    }
+}
+@media screen and (max-width:578px) {
+    .head__btn-box{
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 30px;
+    }
+    .head__btn{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        border: none;
+    }
+    .head__icons{
+        font-size: 28px;
+    }
+    .head__btn:first-child{
+        z-index: 1;
+    }
+    .head__btn:nth-child(2){
+        display: none;
+    }
+    .head__list{
+        position: absolute;
+        top: 110px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 40px;
+        display: flex;
+        flex-direction: column ;
+        justify-content: flex-start;
+        align-items:center;
+        background: linear-gradient(180deg, rgba(254, 252, 247, 0.504981) 0%, #FEFCF7 55.94%);
+        /* transform: matrix(1, 0, 0, -1, 0, 0); */
+    
+    }
+    .head__items{
+        margin-bottom: 32px;
+    }
+    .head__link{
+        margin: 0;
+        font-family: 'Fraunces' , sans-serif;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #333d4b;
+        
+    }
+    .head__link:hover{
+        color: #fdd6ba;
+    }
+    
 }
