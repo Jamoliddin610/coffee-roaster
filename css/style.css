@@ -55,12 +55,14 @@ a{
     }
 }
 @media screen and (max-width:578px) {
+    .head.container{
+        padding: 0 20px ;
+    }
     .head__btn-box{
         display: block;
         position: relative;
         width: 30px;
         height: 30px;
-        margin-right: 20px;
     }
     .head__btn{
         position: absolute;
