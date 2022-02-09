@@ -55,8 +55,9 @@ a{
     }
 }
 @media screen and (max-width:578px) {
-    .head.container{
-        padding: 0 20px ;
+    .head{
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .head__btn-box{
         display: block;
