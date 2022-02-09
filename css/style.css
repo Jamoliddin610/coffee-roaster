@@ -25,6 +25,7 @@ a{
     width: 100%;
     padding: 40px 0;
 }
+
 .head__btn-box{
     display: none;
 }
@@ -47,7 +48,10 @@ a{
 @media screen  and ( max-width:992px) {
     .hero .container{
         width: 100%;
-        padding: 0 25px;
+        padding: 0 ;
+    }
+    .head .row{
+        margin: 0 ;
     }
 }
 @media screen and (max-width:578px) {
@@ -56,6 +60,7 @@ a{
         position: relative;
         width: 30px;
         height: 30px;
+        margin-right: 20px;
     }
     .head__btn{
         position: absolute;
