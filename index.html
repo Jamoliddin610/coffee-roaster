@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,26 +11,71 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>Coffee Roaster</title>
 </head>
+
 <body>
-    <section class="hero">
+    <section class="site-hero">
         <header class="site-head head">
-            <div class="container">
-                <div class="row middle-xs between-xs">
-                    <img src="../imgs/site-logo.svg" alt="site-logo" class="head__img">
-                    <ul class="head__list row middle">
-                        <li class="head__items"><a href="index.html" class="head__link">HOME</a></li>
-                        <li class="head__items"><a href="about.html" class="head__link">ABOUT US</a></li>
-                        <li class="head__items"><a href="create.html" class="head__link">Create your plan</a></li>
-                    </ul>
-                    <div class="head__btn-box">
-                        <button class="head__btn"><i class="bx bx-menu head__icons"></i></button>
-                        <button class="head__btn"><i class="bx bx-x head__icons"></i></button>
-                    </div>
+            <div class="head__inner container">
+                <img src="../imgs/site-logo.svg" alt="site-logo" class="head__img">
+                <ul class="head__list row middle">
+                    <li class="head__items"><a href="index.html" class="head__link">HOME</a></li>
+                    <li class="head__items"><a href="about.html" class="head__link">ABOUT US</a></li>
+                    <li class="head__items"><a href="create.html" class="head__link">Create your plan</a></li>
+                </ul>
+                <div class="head__btn-box">
+                    <button class="head__btn"></button>
                 </div>
             </div>
         </header>
+        <div class="hero">
+            <div class="hero__box container">
+                <div class="hero__inner">
+                    <h1 class="hero__title">Great coffee
+                        made simple.</h1>
+                    <p class="hero__desc">Start your mornings with the world's best coffees. Try our expertly curated
+                        artisan coffees from our best roasters delivered directly to your door, at your schedule.</p>
+                    <a href="./create.html" class="hero__link">Create your plan</a>
+                </div>
+            </div>
+        </div>
     </section>
-    
+<!-- /* jamoliddin finished hero section and started collection section */ -->
+    <section class="collection">
+        <div class=" collection__box container">
+            <ul class="collection__list col-xs-12 row center-xs">
+                <li class="collection__items col-xs-12 col-md-3 row center-sm center-xs">
+                    <img src="imgs/kopi1.png" alt="collection-img" class="collection__img col-xs-10 col-sm-5 col-lg-12 ">
+                    <div class="collection__text-box col-xs-12 col-sm-5 col-lg-12">
+                        <h3 class="collection__title">Gran Espresso</h3>
+                    <p class="collection__text">Light and flavorful blend with cocoa and black pepper for an intense experience.</p>
+                    </div>
+                </li>
+                 <li class="collection__items col-xs-12 col-md-3  row center-sm center-xs">
+                    <img src="imgs/kopi2.png" alt="collection-img" class="collection__img  col-xs-10  col-sm-5 col-lg-12">
+                    <div class="collection__text-box col-xs-12 col-sm-5 col-lg-12">
+                        <h3 class="collection__title">Planalto</h3>
+                    <p class="collection__text">Brazilian dark roast with rich and velvety body, and hints of fruits and nuts.</p>
+                    </div>  
+                </li>
+                 <li class="collection__items col-xs-12 col-md-3 row center-sm center-xs" >
+                    <img src="imgs/kopi3.png" alt="collection-img" class="collection__img col-xs-10 col-sm-5 col-lg-12">
+                    <div class="collection__text-box col-xs-12 col-sm-5 col-lg-12">
+                        <h3 class="collection__title">Piccollo</h3>
+                    <p class="collection__text">Mild and smooth blend featuring notes of toasted almond and dried cherry.</p>
+                    </div>
+                </li>
+                 <li class="collection__items col-xs-12 col-md-3 row center-sm center-xs">
+                    <img src="imgs/kopi4.png" alt="collection-img" class="collection__img col-xs-10 col-sm-5 col-lg-12">
+                    <div class="collection__text-box col-xs-12 col-sm-5 col-lg-12">
+                        <h3 class="collection__title">Danche</h3>
+                    <p class="collection__text">Ethiopian hand-harvested blend densely packed with vibrant fruit notes.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
     <script src="../js/main.js"></script>
 </body>
+
 </html>
